@@ -9,4 +9,15 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="buttonLocation">aktueller Standort</string>
+    <string name="textState">Stadt</string>
+    <string name="textDegreeFirstDay">textDegreeFirstDay</string>
+    <string name="textNextDay">textNextDay</string>
+    <string name="textDegreeNextDay">textDegreeNextDay</string>
+    <string name="textThirdDay">textThirdDay</string>
+    <string name="textDegreeThirdDay">textDegreeThirdDay</string>
+    <string name="textFourthDay">textFourthDay</string>
+    <string name="textDegreeFourthDay">textDegreeFourthDay</string>
+    <string name="textFifthDay">textFifthDay</string>
+    <string name="textDegreeFifthDay">textDegreeFifthDay</string>
 </resources>

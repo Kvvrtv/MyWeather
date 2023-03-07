@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="404dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageClose"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+            <TextView
+                android:id="@+id/textState"
+                android:layout_width="311dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="@string/textState" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageFirstDay"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@android:drawable/gallery_thumb" />
+
+        <TextView
+            android:id="@+id/textDegreeFirstDay"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/textDegreeFirstDay" />
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textNextDay"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:text="@string/textNextDay" />
+
+                    <ImageView
+                        android:id="@+id/imageNextDay"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@android:drawable/gallery_thumb" />
+
+                    <TextView
+                        android:id="@+id/textDegreeNextDay"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:text="@string/textDegreeNextDay" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textThirdDay"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:text="@string/textThirdDay" />
+
+                        <ImageView
+                            android:id="@+id/imageThirdDay"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@android:drawable/gallery_thumb" />
+
+                        <TextView
+                            android:id="@+id/textDegreeThirdDay"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:text="@string/textDegreeThirdDay" />
+                    </LinearLayout>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textFourthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:text="@string/textFourthDay" />
+                        <ImageView
+                            android:id="@+id/imageFourthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@android:drawable/gallery_thumb" />
+
+                        <TextView
+                            android:id="@+id/textDegreeFourthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:text="@string/textDegreeFourthDay" />
+                    </LinearLayout>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textFifthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:text="@string/textFifthDay" />
+                        <ImageView
+                            android:id="@+id/imageFifthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@android:drawable/gallery_thumb" />
+
+                        <TextView
+                            android:id="@+id/textDegreeFifthDay"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:text="@string/textDegreeFifthDay" />
+                    </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
