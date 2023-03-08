@@ -29,23 +29,22 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     private NotificationManager notification;
-    private static final String CHANNEL_ID = "defaultChannel";
+    private static final String CHANNEL_ID = "default";
     private static final String CHANNEL_NAME = "Default Channel";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //binding = ActivityMainBinding.inflate(getLayoutInflater());
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-        sendNotification();
         this.notification = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT);
             notification.createNotificationChannel(channel);
         }
-
+        sendNotification();
 
     }
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <LinearLayout
         android:layout_width="404dp"
@@ -22,7 +22,7 @@
                 android:layout_height="75dp"
                 android:ems="10"
                 android:inputType="text|none"
-                android:text="@string/stateText" />
+                android:text="@string/textState" />
 
             <ImageButton
                 android:id="@+id/buttonSearch"
